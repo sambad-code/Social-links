@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+}
+.container{
+    width: 50vh;
+    background-color: rgb(35, 35, 35);
+    border-radius: 3px;
+border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.top-profile{
+    display: flex;
+    justify-self: center;
+}
+
+.profile{
+    height: 4rem;
+    width: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 1rem;
+
+}
+h3{
+    text-align: center;
+    margin: 1rem;
+    margin-top: 0;
+}
+h5{
+        text-align: center;
+    margin: 1rem;
+    margin-top: 0;
+    color: rgb(127, 208, 6);
+}
+p{
+            text-align: center;
+    margin: 1rem;
+    margin-top: 0;
+    opacity: 0.8;
+    font-size: 13px;
+}
+
+a{
+
+     color: white;
+    text-decoration: none;
+    font-size: 3vmin;
+    font-weight: bold;
+
+}
+button{
+    width: 80%;
+    align-items: center;
+    margin: 1vmin;
+    padding: 2.5vmin;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+
+
+
+}
+ button:hover{
+ opacity: 0.8;
+ cursor: pointer;
+ transform: translateY(-2px) translateX(2px);
+ }
+
+.div1{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.div2{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}.div3{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}.div4{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 1.5rem;
+}
